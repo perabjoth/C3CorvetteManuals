@@ -25,6 +25,6 @@ for x in onlyfiles:
                         imgWrite.write(imageData)
                         imgWrite.close()                    
                         child['src'] = imageName
-            f = open("new"+x, "w")
+            f = open(x, "w")
             f.write(str(soup))
             f.close()
